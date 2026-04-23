@@ -1,8 +1,8 @@
-import random
-import cliente
 import banqueiro
+import cliente
+import random
 
-def _inicializar():
+def _inicializar() -> None:
 
     for i in range(banqueiro.NUMERO_DE_RECURSOS):
 
