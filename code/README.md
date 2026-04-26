@@ -126,9 +126,43 @@ O trecho `if __name__ == "__main__":` chama `_inicializar()` para configurar o a
 
 ---
 
+## 🛠️ Pré-requisitos: Instalação do Python
+
+Este projeto requer o **Python 3.x**. Se você ainda não o tem instalado, siga as instruções abaixo:
+
+### **Windows**
+1. Baixe o instalador oficial em [python.org](https://www.python.org/downloads/).
+2. **Importante:** No instalador, marque a opção **"Add Python to PATH"** antes de clicar em instalar.
+3. Reinicie seu terminal e verifique a instalação com: `python --version`.
+4. Caso o terminal retorne uma mensagem contendo a versão do Python, você instalou com suesso, siga para as instruções de execução.
+
+### **Linux**
+
+O Python já costuma vir instalado na maioria das distribuições. Caso precise instalar ou atualizar, use o comando correspondente à sua distro:
+
+* **Fedora / RHEL / CentOS:**
+    ```bash
+    sudo dnf install python3
+    ```
+
+* **Ubuntu / Debian / Linux Mint / Pop!_OS:**
+    ```bash
+    sudo apt update && sudo apt install python3
+    ```
+
+* **Arch Linux / Manjaro:**
+    ```bash
+    sudo pacman -S python
+    ```
+
+* **openSUSE:**
+    ```bash
+    sudo zypper install python3
+    ```
+
 ## 🚀 Como Executar
 
-O projeto foi desenvolvido em **Python**, portanto não há uma etapa explícita de compilação. Para rodar a simulação, certifique-se de ter o Python 3 instalado em seu ambiente.
+Por se tratar de uma linguagem interpretada, o **Python não exige uma etapa de compilação manual** (como ocorre em C++ ou Java). O código-fonte é traduzido para *bytecode* e executado diretamente pelo interpretador.
 
 **Passos:**
 1. Abra o terminal de sua preferência.
@@ -140,6 +174,17 @@ python main.py
 ```
 *(Observação: dependendo do seu sistema operacional, pode ser necessário usar `python3 main.py`)*
 
+No entanto, recomenda-se a criação de um ambiente virtual para isolar as dependências (opcional):
+
+```bash
+# Criar ambiente virtual
+python3 -m venv venv
+
+# Ativar no Linux/macOS
+source venv/bin/activate
+
+# Ativar no Windows
+.\venv\Scripts\activate
 ---
 
 ## Considerações finais
