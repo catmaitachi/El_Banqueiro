@@ -160,6 +160,16 @@ O Python já costuma vir instalado na maioria das distribuições. Caso precise 
     sudo zypper install python3
     ```
 
+### **macOS**
+
+O macOS geralmente possui o Python pré-instalado, mas para garantir a versão mais recente e evitar conflitos com o sistema, recomendamos o uso do gerenciador de pacotes [Homebrew](https://brew.sh/):
+
+1. Se não tiver o Homebrew, instale-o com o comando:
+   ```bash
+   /bin/bash -c "$(curl -fsSL [https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh](https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh))"
+   
+   brew install python
+
 ## 🚀 Como Executar
 
 Por se tratar de uma linguagem interpretada, o **Python não exige uma etapa de compilação manual** (como ocorre em C++ ou Java). O código-fonte é traduzido para *bytecode* e executado diretamente pelo interpretador.
