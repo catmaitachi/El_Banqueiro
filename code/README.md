@@ -126,6 +126,22 @@ O trecho `if __name__ == "__main__":` chama `_inicializar()` para configurar o a
 
 ---
 
+## 🚀 Como Executar
+
+O projeto foi desenvolvido em **Python**, portanto não há uma etapa explícita de compilação. Para rodar a simulação, certifique-se de ter o Python 3 instalado em seu ambiente.
+
+**Passos:**
+1. Abra o terminal de sua preferência.
+2. Navegue até a pasta `code/` do projeto.
+3. Execute o programa principal com o comando abaixo:
+
+```bash
+python main.py
+```
+*(Observação: dependendo do seu sistema operacional, pode ser necessário usar `python3 main.py`)*
+
+---
+
 ## Considerações finais
 
 ```
