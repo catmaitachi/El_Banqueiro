@@ -19,10 +19,12 @@ A solução foca em três pilares fundamentais da computação paralela:
     <tr>
         <td align="center" width="50%"><a href="https://github.com/SEU-USER-AQUI"><img src="https://avatars.githubusercontent.com/u/SEU-ID-AQUI?v=4" alt="Perfil" style="width: 100%; height: auto; display: block;"></a></td>
         <td align="center" width="50%"><a href="https://github.com/USER-DUPLA-AQUI"><img src="https://avatars.githubusercontent.com/u/ID-DUPLA-AQUI?v=4" alt="Perfil" style="width: 100%; height: auto; display: block;"></a></td>
+            <td align="center" width="50%"><a href="https://github.com/USER-DUPLA-AQUI"><img src="https://avatars.githubusercontent.com/u/ID-DUPLA-AQUI?v=4" alt="Perfil" style="width: 100%; height: auto; display: block;"></a></td>
     </tr>
     <tr>
         <td align="center">Nome do Aluno 1</td>
         <td align="center">Nome do Aluno 2</td>
+        <td align="center">Isaías Alves de Souza Santos</td>
     </tr>
 </table>
 
