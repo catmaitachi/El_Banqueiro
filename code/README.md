@@ -31,7 +31,7 @@
 
 ---
 
-### Algoritmo de segurança
+### Algoritmo de segurança 
 
 `eh_seguro()` Verifica se o estado atual do sistema é seguro, ou seja, se existe ao menos uma sequência em que todos os clientes conseguem terminar.
 
